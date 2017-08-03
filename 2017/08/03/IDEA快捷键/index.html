@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="IDEA," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2" />
+
+
+
+
+
+
+<meta name="description" content="1 智能提示Intellij首当其冲的当然就是Intelligence智能！基本的代码提示用Ctrl+Space，还有更智能地按类型信息提示Ctrl+Shift+Space，但因为Intellij总是随着我们敲击而自动提示，所以很多时候都不会手动敲这两个快捷键(除非提示框消失了)。用F2/ Shift+F2移动到有错误的代码，Alt+Enter快速修复(即Eclipse中的Quick Fix功能)">
+<meta name="keywords" content="IDEA">
+<meta property="og:type" content="article">
+<meta property="og:title" content="IDEA快捷键">
+<meta property="og:url" content="http://yoursite.com/2017/08/03/IDEA快捷键/index.html">
+<meta property="og:site_name" content="z&#39;博客">
+<meta property="og:description" content="1 智能提示Intellij首当其冲的当然就是Intelligence智能！基本的代码提示用Ctrl+Space，还有更智能地按类型信息提示Ctrl+Shift+Space，但因为Intellij总是随着我们敲击而自动提示，所以很多时候都不会手动敲这两个快捷键(除非提示框消失了)。用F2/ Shift+F2移动到有错误的代码，Alt+Enter快速修复(即Eclipse中的Quick Fix功能)">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-08-03T06:12:13.517Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IDEA快捷键">
+<meta name="twitter:description" content="1 智能提示Intellij首当其冲的当然就是Intelligence智能！基本的代码提示用Ctrl+Space，还有更智能地按类型信息提示Ctrl+Shift+Space，但因为Intellij总是随着我们敲击而自动提示，所以很多时候都不会手动敲这两个快捷键(除非提示框消失了)。用F2/ Shift+F2移动到有错误的代码，Alt+Enter快速修复(即Eclipse中的Quick Fix功能)">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '6U5AH2J74T',
+      apiKey: '2aa64c42b6f058ee2edc6890e61949b8',
+      indexName: 'getstarted_actors',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2017/08/03/IDEA快捷键/"/>
+
+
+
+
+
+  <title>IDEA快捷键 | z'博客</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">z'博客</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/08/03/IDEA快捷键/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="钟鸿超">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://i.miaosu.bid/data/f_69295992.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="z'博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">IDEA快捷键</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-03T14:08:43+08:00">
+                2017-08-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="1-智能提示"><a href="#1-智能提示" class="headerlink" title="1 智能提示"></a>1 智能提示</h2><p>Intellij首当其冲的当然就是Intelligence智能！基本的代码提示用<strong>Ctrl+Space</strong>，还有更智能地按类型信息提示<strong>Ctrl+Shift+Space</strong>，但因为Intellij总是随着我们敲击而自动提示，所以很多时候都不会手动敲这两个快捷键(除非提示框消失了)。用<strong>F2/ Shift+F2</strong>移动到有错误的代码，<strong>Alt+Enter</strong>快速修复(即Eclipse中的Quick Fix功能)。当智能提示为我们自动补全方法名时，我们通常要自己补上行尾的反括号和分号，当括号嵌套很多层时会很麻烦，这时我们只需敲<strong>Ctrl+Shift+Enter</strong>就能自动补全末尾的字符。而且不只是括号，例如敲完if/for时也可以自动补上{}花括号。</p>
+<p>最后要说一点，Intellij能够智能感知Spring、Hibernate等主流框架的配置文件和类，以静制动，在看似“静态”的外表下，智能地扫描理解你的项目是如何构造和配置的。</p>
+<h2 id="2-重构"><a href="#2-重构" class="headerlink" title="2 重构"></a>2 重构</h2><p>Intellij重构是另一完爆Eclipse的功能，其智能程度令人瞠目结舌，比如提取变量时自动检查到所有匹配同时提取成一个变量等。尤其看过<strong>《重构-改善既有代码设计》</strong>之后，有了Intellij的配合简直是令人大呼过瘾！也正是强大的智能和重构功能，使Intellij下的TDD开发非常顺畅。</p>
+<p>切入正题，先说一个无敌的重构功能大汇总快捷键<strong>Ctrl+Shift+Alt+T</strong>，叫做Refactor This。按法有点复杂，但也符合Intellij的风格，很多快捷键都要双手完成，而不像Eclipse不少最有用的快捷键可以潇洒地单手完成(不知道算不算Eclipse的一大优点)，但各位用过<strong>Emacs</strong>的话就会觉得也没什么了(非Emacs黑)。此外，还有些最常用的重构技巧，因为太常用了，若每次都在Refactor This菜单里选的话效率有些低。比如<strong>Shift+F6</strong>直接就是改名，<strong>Ctrl+Alt+V</strong>则是提取变量。</p>
+<h2 id="3-代码生成"><a href="#3-代码生成" class="headerlink" title="3 代码生成"></a>3 代码生成</h2><p>这一点类似Eclipse，虽不是独到之处，但因为日常使用频率极高，所以还是罗列在榜单前面。常用的有<strong>fori/sout/psvm+Tab</strong>即可生成循环、System.out、main方法等boilerplate样板代码，用<strong>Ctrl+J</strong>可以查看所有模板。后面“辅助”一节中将会讲到<strong>Alt+Insert</strong>，在编辑窗口中点击可以生成构造函数、toString、getter/setter、重写父类方法等。这两个技巧实在太常用了，几乎每天都要生成一堆main、System.out和getter/setter。</p>
+<p>另外，Intellij IDEA 13中加入了后缀自动补全功能(<strong>Postfix Completion</strong>)，比模板生成更加灵活和强大。例如要输入for(User user : users)只需输入user<strong>.for+Tab</strong>。再比如，要输入Date birthday = user.getBirthday();只需输入user.getBirthday()<strong>.var+Tab</strong>即可。</p>
+<h2 id="4-编辑"><a href="#4-编辑" class="headerlink" title="4 编辑"></a>4 编辑</h2><p>编辑中不得不说的一大神键就是能够自动按语法选中代码的<strong>Ctrl+W</strong>以及反向的<strong>Ctrl+Shift+W</strong>了。此外，<strong>Ctrl+Left/Right</strong>移动光标到前/后单词，<strong>Ctrl+[/]</strong>移动到前/后代码块，这些<strong>类Vim风格的光标移动</strong>也是一大亮点。以上Ctrl+Left/Right/[]加上Shift的话就能选中跳跃范围内的代码。<strong>Alt+Forward/Backward</strong>移动到前/后方法。还有些非常普通的像<strong>Ctrl+Y</strong>删除行、<strong>Ctrl+D</strong>复制行、<strong>Ctrl+&lt;/&gt;</strong>折叠代码就不多说了。</p>
+<p>关于光标移动再多扩展一点，除了Intellij本身已提供的功能外，我们还可以安装<strong>ideaVim或者emacsIDEAs享受到Vim的快速移动和Emacs的AceJump功能</strong>(超爽！)。另外，Intellij的书签功能也是不错的，用<strong>Ctrl+Shift+Num</strong>定义1-10书签(再次按这组快捷键则是删除书签)，然后通过<strong>Ctrl+Num</strong>跳转。这避免了多次使用前/下一编辑位置<strong>Ctrl+Left/Right</strong>来回跳转的麻烦，而且此快捷键默认与Windows热键冲突(默认多了Alt，与Windows改变显示器显示方向冲突，一不小心显示器就变成倒着显式的了，冏啊)。</p>
+<h2 id="5-查找打开"><a href="#5-查找打开" class="headerlink" title="5 查找打开"></a>5 查找打开</h2><p>类似Eclipse，Intellij的<strong>Ctrl+N/Ctrl+Shift+N</strong>可以打开类或资源，但Intellij更加智能一些，我们输入的任何字符都将看作模糊匹配，省却了Eclipse中还有输入<em>的麻烦。最新版本的IDEA还加入了Search Everywhere功能，只需按<em>*Shift+Shift</em></em>即可在一个弹出框中搜索任何东西，包括类、资源、配置项、方法等等。</p>
+<p>类的继承关系则可用<strong>Ctrl+H</strong>打开类层次窗口，在继承层次上跳转则用<strong>Ctrl+B/Ctrl+Alt+B</strong>分别对应父类或父方法定义和子类或子方法实现，查看当前类的所有方法用<strong>Ctrl+F12</strong>。</p>
+<p>要找类或方法的使用也很简单，<strong>Alt+F7</strong>。要查找文本的出现位置就用<strong>Ctrl+F/Ctrl+Shift+F</strong>在当前窗口或全工程中查找，再配合<strong>F3/Shift+F3</strong>前后移动到下一匹配处。</p>
+<p>Intellij更加智能的又一佐证是在任意菜单或显示窗口，都可以直接输入你要找的单词，Intellij就会自动为你过滤。</p>
+<h2 id="6-其他辅助"><a href="#6-其他辅助" class="headerlink" title="6 其他辅助"></a>6 其他辅助</h2><p>以上这些神键配上一些辅助快捷键，即可让你的双手90%以上的时间摆脱鼠标，专注于键盘仿佛在进行钢琴表演。这些不起眼却是至关重要的最后一块拼图有：</p>
+<p>Ø  <strong>命令</strong>：<strong>Ctrl+Shift+A</strong>可以查找所有Intellij的命令，并且每个命令后面还有其快捷键。所以它不仅是一大神键，也是查找学习快捷键的工具。</p>
+<p>Ø  <strong>新建</strong>：<strong>Alt+Insert</strong>可以新建类、方法等任何东西。</p>
+<p>Ø  <strong>格式化代码</strong>：格式化import列表<strong>Ctrl+Alt+O</strong>，格式化代码<strong>Ctrl+Alt+L</strong>。</p>
+<p>Ø  <strong>切换窗口</strong>：<strong>Alt+Num</strong>，常用的有1-项目结构，3-搜索结果，4/5-运行调试。<strong>Ctrl+Tab</strong>切换标签页，<strong>Ctrl+E/Ctrl+Shift+E</strong>打开最近打开过的或编辑过的文件。</p>
+<p>Ø  <strong>单元测试</strong>：<strong>Ctrl+Alt+T</strong>创建单元测试用例。</p>
+<p>Ø  <strong>运行</strong>：<strong>Alt+Shift+F10</strong>运行程序，<strong>Shift+F9</strong>启动调试，<strong>Ctrl+F2</strong>停止。</p>
+<p>Ø  <strong>调试</strong>：<strong>F7/F8/F9</strong>分别对应Step into，Step over，Continue。</p>
+<p>此外还有些我自定义的，例如水平分屏<strong>Ctrl+|</strong>等，和一些神奇的小功能<strong>Ctrl+Shift+V</strong>粘贴很早以前拷贝过的，<strong>Alt+Shift+Insert</strong>进入到列模式进行按列选中。</p>
+<h2 id="7-最终榜单"><a href="#7-最终榜单" class="headerlink" title="7 最终榜单"></a>7 最终榜单</h2><p>这榜单阵容太豪华了，后几名都是如此有用，毫不示弱。</p>
+<p>Ø  <strong>Top #10切来切去</strong>：Ctrl+Tab</p>
+<p>Ø  <strong>Top #9选你所想</strong>：Ctrl+W</p>
+<p>Ø  <strong>Top #8代码生成</strong>：Template/Postfix +Tab</p>
+<p>Ø  <strong>Top #7发号施令</strong>：Ctrl+Shift+A</p>
+<p>Ø  <strong>Top #6无处藏身</strong>：Shift+Shift</p>
+<p>Ø  <strong>Top #5自动完成</strong>：Ctrl+Shift+Enter</p>
+<p>Ø  <strong>Top #4创造万物</strong>：Alt+Insert</p>
+<p>太难割舍，前三名并列吧！</p>
+<p>Ø  <strong>Top #1智能补全</strong>：Ctrl+Shift+Space</p>
+<p>Ø  <strong>Top #1自我修复</strong>：Alt+Enter</p>
+<p>Ø  <strong>Top #1重构一切</strong>：Ctrl+Shift+Alt+T</p>
+<p> 一.找文件找代码找引用相关<br>1.双击shift<br> 在项目的所有目录查找，就是你想看到你不想看到的和你没想过你能看到的都给你找出来<br>2.ctrl+f<br>当前文件查找特定内容<br>3.ctrl+shift+f<br>当前项目查找包含特定内容的文件<br>4.ctrl+n<br>查找类<br>5.ctrl+shift+n<br>查找文件<br>6.ctrl+e<br>最近的文件<br>7.alt+F7<br>非常非常频繁使用的一个快捷键，可以帮你找到你的函数或者变量或者类的所有引用到的地方<br>二.编辑相关<br>1.shift+enter<br>另起一行<br>2.ctrl+r<br>当前文件替换特定内容<br>3.ctrl+shift+r<br>当前项目替换特定内容<br>4.shift+F6<br>非常非常省心省力的一个快捷键，可以重命名你的类、方法、变量等等，而且这个重命名甚至可以选择替换掉注释中的内容<br>5.ctrl+d<br>复制当前行到下一行<br>6.ctrl+x<br>剪切当前行<br>7.ctrl+c \ ctrl+v<br>大家都懂的<br>8.ctrl+z<br>撤销<br>9.ctrl+shift+z<br>取消撤销<br>10.ctrl+k<br>提交代码到SVN<br>11.ctrl+t<br>更新代码<br>12.alt+insert<br>非常非常以及相当方便的一个组合键，不信您往下看<br>在类中使用：<br>可以自动生成构造器、getter/setter等等常用方法<br>在项目目录上使用：<br>可用于新建各种文件。<br>13.alt+enter<br>又是一个大杀器，有多杀？<br>例1：<br>发现代码很“黄”怎么办？<br>鼠标移上去喵一下：<br>试试alt+enter：<br>选择simplify看看<br>我勒个去，代码简洁了有木有啊！<br>PS:黄色警告编译可以通过，不影响程序的正常运行，一般都是一些对于代码优化的建议，我遇到过的有：<br>(1).can be simplify<br>代码可以简化<br>(2).Variable is never use<br>声明的变量从未被使用<br>(3)unnecessary boxing<br>不必要的声明包装<br>以及等等等，多留意下，对于编码的某些细节能够更了解。<br>例2：<br>写个类实现某个接口，加上 implements Runnable 后你就会发现这条红色的波浪线：<br>咱试试在这行上来个 alt+enter:<br>感动地哭了有木有？你想到的没想到的IDEA都帮你想到了。<br>看到代码里提示的各种红XX，就试试alt+enter吧！什么未抛异常啊没有try catch啊都能搞得定。<br>14.ctrl+alt+L<br>自动格式化代码，我已经养成了写完代码就来一发的习惯。<br>你可以个性化设置你自己的代码风格：File–Settings–CodeStyle</p>
+
+      
+    </div>
+    
+    
+    
+
+    <div>
+    	
+    	<div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+    	
+    </div>
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/IDEA/" rel="tag"># IDEA</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/08/03/Typora快捷键/" rel="next" title="Typora快捷键">
+                <i class="fa fa-chevron-left"></i> Typora快捷键
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="http://i.miaosu.bid/data/f_69295992.jpg"
+               alt="钟鸿超" />
+          <p class="site-author-name" itemprop="name">钟鸿超</p>
+           
+              <p class="site-description motion-element" itemprop="description">Having dreams is what makes life tolerable.</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-智能提示"><span class="nav-number">1.</span> <span class="nav-text">1 智能提示</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-重构"><span class="nav-number">2.</span> <span class="nav-text">2 重构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-代码生成"><span class="nav-number">3.</span> <span class="nav-text">3 代码生成</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-编辑"><span class="nav-number">4.</span> <span class="nav-text">4 编辑</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-查找打开"><span class="nav-number">5.</span> <span class="nav-text">5 查找打开</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-其他辅助"><span class="nav-number">6.</span> <span class="nav-text">6 其他辅助</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-最终榜单"><span class="nav-number">7.</span> <span class="nav-text">7 最终榜单</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">钟鸿超</span>
+</div>
+<div class="powered-by">
+<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
+  本站总访问量<span id="busuanzi_value_site_uv"></span>次
+</span>
+</span>
+</div>
+
+<!--<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Gemini
+  </a>
+</div>
+-->
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">博客全站共4.3k字</span>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  
+  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.2"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
